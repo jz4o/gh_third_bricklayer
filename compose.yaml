@@ -1,0 +1,12 @@
+services:
+  gh:
+    build: ./docker
+    command: ['sh', 'setting.sh']
+    environment:
+      GH_TOKEN: $GH_TOKEN
+    tty: true
+    volumes:
+      - ./src/setting.sh:/work/setting.sh
+      - ./src/setting.json:/work/setting.json
+    working_dir: /work
+

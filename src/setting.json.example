@@ -1,0 +1,36 @@
+{
+  "repo": "<owner>/<reposiroty name>",
+  "repository_variables": {
+    "<key1>": "<value1>",
+    "<key2>": "<value2>"
+  },
+  "repository_secrets": {
+    "<key1>": "<value1>",
+    "<key2>": "<value2>"
+  },
+  "environments": [
+    {
+      "name": "<environment name1>",
+      "variables": {
+        "<key1>": "<value1>",
+        "<key2>": "<value2>"
+      },
+      "secrets": {
+        "<key1>": "<value1>",
+        "<key2>": "<value2>"
+      }
+    },
+    {
+      "name": "<environment name2>",
+      "variables": {
+        "<key1>": "<value1>",
+        "<key2>": "<value2>"
+      },
+      "secrets": {
+        "<key1>": "<value1>",
+        "<key2>": "<value2>"
+      }
+    }
+  ]
+}
+
